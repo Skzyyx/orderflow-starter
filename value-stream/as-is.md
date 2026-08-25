@@ -4,11 +4,11 @@ Documenten el flujo real desde el commit baseline hasta una ejecución verificab
 
 ## Flujo observado
 
-1. **Trabajo (Líder — Skzyyx)**: Creó el repositorio del equipo en GitHub, importó el starter y publicó el commit baseline "Initial Commit" (`0542e04`) en `main`. Esto correspondió al paso "Bootstrap del repositorio del equipo" indicado en el README.
+1. **Trabajo (Líder — José Luis Islas Molina)**: Creó el repositorio del equipo en GitHub, importó el starter y publicó el commit baseline "Initial Commit" (`0542e04`) en `main`. Esto correspondió al paso "Bootstrap del repositorio del equipo" indicado en el README.
 
 2. **Handoff**: El líder compartió la URL del repositorio con el equipo para que otro integrante verificara la reproducibilidad desde un fresh clone.
 
-3. **Trabajo (Jose Aguilar)**: Realicé todo el resto del flujo de verificación:
+3. **Trabajo (José Eduardo Aguilar Garcia)**: Realicé todo el resto del flujo de verificación:
    - Clon limpio del repositorio en mi máquina (`git clone`)
    - Confirmación del commit baseline (`git log --oneline -1`)
    - `mvn clean test` → tests verificados
