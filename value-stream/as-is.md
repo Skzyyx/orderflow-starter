@@ -29,14 +29,14 @@ Documenten el flujo real desde el commit baseline hasta una ejecución verificab
 6. **Fricción (José Eduardo Aguilar Garcia)**: Al usar `Invoke-RestMethod` en `cmd.exe` (en vez de PowerShell), el comando no fue reconocido. Se resolvió usando el `curl` equivalente disponible en `cmd`.
    **Fricción (Freddy Alí Castro Román)**: No tuve problemas al momento de ejecutar los comandos puesto que ya estaba usando powershell 7.
    **Friccion (Christopher Alvarez Centeno)**: No tuve problemas al momento de correr los comandos en powershell.
-
+   
 ## Fricciones identificadas
 
 - Diferencia entre `cmd.exe` y PowerShell: `Invoke-RestMethod` solo funciona en PowerShell, y el README no especifica en qué terminal correr cada comando.
-- Todo el trabajo de verificación recayó en una sola persona; no hubo doble-checking cruzado entre más integrantes en este sprint.
-- Falta instalar maven en los equipos.
+- Falta instalar Maven en los equipos.
+- Diferencias de configuración de entorno entre integrantes (versión de terminal, herramientas preinstaladas) generaron experiencias distintas al correr los mismos comandos.
 
 ## Observaciones
 
-- La división de responsabilidades fue clara: el líder cumplió el bootstrap según el README, y la verificación de reproducibilidad quedó a cargo de otro integrante, sin bloqueos de comunicación.
+- La división de responsabilidades fue clara: el líder cumplió el bootstrap según el README, y tres integrantes verificaron el fresh clone de forma independiente, mostrando que el proceso es reproducible entre distintas máquinas, aunque con configuraciones de entorno distintas (algunos sin Maven instalado, otros con terminal desactualizada).
 - El baseline resultó reproducible sin intervención del líder una vez compartida la URL del repo — no hubo dependencias ocultas ni pasos no documentados.

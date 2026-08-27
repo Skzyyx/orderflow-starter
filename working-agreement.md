@@ -1,7 +1,7 @@
 # Working Agreement — Equipo OrderFlow
 
 - Canales y tiempos de respuesta:
-  Comunicación principal por WhatsAppy Discord. 
+  Comunicación principal por WhatsApp y Discord. 
   Tiempo de respuesta esperado: dentro de 5 horas en días hábiles.
 
 - Horarios de colaboración:
