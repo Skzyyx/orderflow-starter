@@ -24,11 +24,11 @@ Documenten el flujo real desde el commit baseline hasta una ejecución verificab
 
 5. **Feedback (José Eduardo Aguilar Garcia)**: La terminal confirmó en cada paso el resultado (`BUILD SUCCESS`, tests pasados, respuestas JSON correctas de los endpoints), permitiendo validar el baseline sin ambigüedad.
    **Feedback (Freddy Alí Castro Román)**: De igual manera, la terminal confirmó resultados satisfactorios.
-   **Espera (Christopher Alvarez Centeno)**: Al igual que mis compañeros en la terminal confirmo resultados exitosos.
+   **Feedback (Christopher Alvarez Centeno)**: Al igual que mis compañeros en la terminal confirmo resultados exitosos.
 
 6. **Fricción (José Eduardo Aguilar Garcia)**: Al usar `Invoke-RestMethod` en `cmd.exe` (en vez de PowerShell), el comando no fue reconocido. Se resolvió usando el `curl` equivalente disponible en `cmd`.
    **Fricción (Freddy Alí Castro Román)**: No tuve problemas al momento de ejecutar los comandos puesto que ya estaba usando powershell 7.
-   **Espera (Christopher Alvarez Centeno)**: No tuve problemas al momento de correr los comandos en powershell.
+   **Friccion (Christopher Alvarez Centeno)**: No tuve problemas al momento de correr los comandos en powershell.
 
 ## Fricciones identificadas
 
